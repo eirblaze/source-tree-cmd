@@ -1,1 +1,1 @@
-git rm --cached `git ls-files --full-name -i --exclude-standard`
+git rm --cached $(git ls-files --full-name -i --exclude-standard)
